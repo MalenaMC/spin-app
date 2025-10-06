@@ -28,7 +28,11 @@ const corsOptions = {
 };
 
 // Usar CORS con opciones (maneja preflight)
-app.use(cors(corsOptions));
+app.use(cors({
+  origin: ["http://localhost:3000", "https://spin-app-zusn.onrender.com"], // frontends permitidos
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  credentials: true, // si usas cookies
+}));
 //app.options("*", cors(corsOptions)); // responder OPTIONS globalmente (importante para socket.io polling)
 
 // Middlewares normales
@@ -38,7 +42,7 @@ app.use(express.urlencoded({ extended: true }));
 // Crear instancia de socket.io con la misma configuración CORS
 const io = new Server(server, {
   cors: {
-    origin: CLIENT_ORIGIN,
+    origin: [CLIENT_ORIGIN, "http://localhost:3000", "https://spin-app-zusn.onrender.com"],
     methods: ["GET", "POST"],
     credentials: true,
   },
