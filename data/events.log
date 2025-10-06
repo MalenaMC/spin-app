@@ -1,0 +1,17 @@
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":0,"segment":{"id":"SKU_1759715379139","text":"Premio 1","color":"#f47cde"},"timestamp":"2025-10-06T01:53:26.110Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":1,"segment":{"id":"SKU_1759715391707","text":"Premio 2","color":"#3c910c"},"timestamp":"2025-10-06T01:53:35.382Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":1,"segment":{"id":"SKU_1759715391707","text":"Premio 2","color":"#3c910c"},"timestamp":"2025-10-06T01:55:06.679Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":3,"segment":{"id":"SKU_1759715408867","text":"Premio 4","color":"#a26cbc"},"timestamp":"2025-10-06T02:02:06.197Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":2,"segment":{"id":"SKU_1759715398611","text":"Premio 3","color":"#2e80b2"},"timestamp":"2025-10-06T02:03:29.514Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":3,"segment":{"id":"SKU_1759715408867","text":"Premio 4","color":"#a26cbc"},"timestamp":"2025-10-06T02:03:35.735Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":1,"segment":{"id":"SKU_1759715391707","text":"Premio 2","color":"#3c910c"},"timestamp":"2025-10-06T02:03:42.486Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":0,"segment":{"id":"SKU_1759715379139","text":"Premio 1","color":"#f47cde"},"timestamp":"2025-10-06T02:03:50.308Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":3,"segment":{"id":"SKU_1759715408867","text":"Premio 4","color":"#a26cbc"},"timestamp":"2025-10-06T02:12:51.400Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":0,"segment":{"id":"SKU_1759715379139","text":"Premio 1","color":"#f47cde"},"timestamp":"2025-10-06T02:12:59.301Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":3,"segment":{"id":"SKU_1759715408867","text":"Premio 4","color":"#a26cbc"},"timestamp":"2025-10-06T02:13:01.441Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":0,"segment":{"id":"SKU_1759715379139","text":"Premio 1","color":"#f47cde"},"timestamp":"2025-10-06T02:13:07.577Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":2,"segment":{"id":"SKU_1759715398611","text":"Premio 3","color":"#2e80b2"},"timestamp":"2025-10-06T02:13:17.873Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":0,"segment":{"id":"SKU_1759715379139","text":"Premio 1","color":"#f47cde"},"timestamp":"2025-10-06T02:13:22.296Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":0,"segment":{"id":"SKU_1759715379139","text":"Premio 1","color":"#f47cde"},"timestamp":"2025-10-06T02:21:49.337Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":0,"segment":{"id":"SKU_1759715379139","text":"Premio 1","color":"#f47cde"},"timestamp":"2025-10-06T02:23:20.971Z"}
+{"type":"spin","username":"TestUser123","text":"Test gift","sku":null,"segmentIndex":2,"segment":{"id":"SKU_1759715398611","text":"Premio 3","color":"#2e80b2"},"timestamp":"2025-10-06T02:28:55.039Z"}
