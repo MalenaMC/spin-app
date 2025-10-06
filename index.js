@@ -29,7 +29,7 @@ const corsOptions = {
 
 // Usar CORS con opciones (maneja preflight)
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions)); // responder OPTIONS globalmente (importante para socket.io polling)
+//app.options("*", cors(corsOptions)); // responder OPTIONS globalmente (importante para socket.io polling)
 
 // Middlewares normales
 app.use(express.json());
