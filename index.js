@@ -45,6 +45,7 @@ const io = new Server(server, {
 });
 
 const PORT = process.env.PORT || 3001
+const HOST = process.env.HOST || "0.0.0.0";
 const SEGMENTS_FILE = path.join(__dirname, "data", "segments.json")
 const EVENTS_LOG = path.join(__dirname, "data", "events.log")
 
@@ -220,8 +221,29 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", segments: segments.length })
 })
 
-server.listen(PORT, () => {
-  console.log(`🚀 Servidor corriendo en puerto ${PORT}`)
-  console.log(`📊 Segmentos cargados: ${segments.length}`)
-  console.log(`🎯 Webhook URL: http://localhost:${PORT}/webhook/tikfinity`)
-})
+
+// Listen con host 0.0.0.0 y log de URL pública si existe
+server.listen(PORT, HOST, () => {
+  console.log(`🚀 Servidor corriendo en ${HOST}:${PORT}`);
+  console.log(`📊 Segmentos cargados: ${segments.length}`);
+
+  // Detectar URL pública
+  const publicUrlCandidates = [
+    process.env.RAILWAY_STATIC_URL,
+    process.env.RAILWAY_STATIC_URLS,
+    process.env.RAILWAY_PUBLIC_URL,
+    process.env.PUBLIC_URL,
+    process.env.APP_URL,
+    process.env.VERCEL_URL && `https://${process.env.VERCEL_URL}`,
+    process.env.RENDER_EXTERNAL_URL,
+  ].filter(Boolean);
+
+  if (publicUrlCandidates.length > 0) {
+    console.log("🌐 Detected public URL(s):", publicUrlCandidates.join(", "));
+    console.log(`🎯 Webhook URL sugerida: ${publicUrlCandidates[0].replace(/\/$/, "")}/webhook/tikfinity`);
+  } else {
+    console.log("ℹ️ No se detectó URL pública en variables de entorno.");
+    console.log("👉 Revisa 'Open app' o 'Deployments' en Railway para la URL pública.");
+    console.log(`(Mientras tanto el webhook local es: http://localhost:${PORT}/webhook/tikfinity)`);
+  }
+});
