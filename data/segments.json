@@ -1,22 +1,56 @@
 [
-  {
-    "id": "SKU_1759715379139",
-    "text": "Premio 1",
-    "color": "#f47cde"
-  },
-  {
-    "id": "SKU_1759715391707",
-    "text": "Premio 2",
-    "color": "#3c910c"
-  },
-  {
-    "id": "SKU_1759715398611",
-    "text": "Premio 3",
-    "color": "#2e80b2"
-  },
-  {
-    "id": "SKU_1759715408867",
-    "text": "Premio 4",
-    "color": "#a26cbc"
-  }
+  {"id":"SKU_1001","text":"NADA 😞","color":"#b294d4"},
+  {"id":"SKU_1002","text":"NADA 😞","color":"#c2a3d8"},
+  {"id":"SKU_1003","text":"NADA 😞","color":"#aa8ec2"},
+  {"id":"SKU_1004","text":"POR POCO😆","color":"#a8d6e8"},
+  {"id":"SKU_1005","text":"NADA 😞","color":"#9f7bc0"},
+  {"id":"SKU_1006","text":"NADA 😞","color":"#b18ed3"},
+  {"id":"SKU_1007","text":"POR POCO😆","color":"#99cfe0"},
+  {"id":"SKU_1008","text":"NADA 😞","color":"#af86c7"},
+  {"id":"SKU_1009","text":"NADA 😞","color":"#c4a6de"},
+  {"id":"SKU_1010","text":"NADA 😞","color":"#b78ed6"},
+  
+  {"id":"SKU_1011","text":"NADA 😞","color":"#a87ccf"},
+  {"id":"SKU_1012","text":"POR POCO😆","color":"#9ed7e4"},
+  {"id":"SKU_1013","text":"NADA 😞","color":"#b593d1"},
+  {"id":"SKU_1014","text":"NADA 😞","color":"#c1a3de"},
+  {"id":"SKU_1015","text":"NADA 😞","color":"#9c7ec4"},
+  {"id":"SKU_1016","text":"POR POCO😆","color":"#90cce3"},
+  {"id":"SKU_1017","text":"NADA 😞","color":"#ad8dd1"},
+  {"id":"SKU_1018","text":"NADA 😞","color":"#b59ed8"},
+  {"id":"SKU_1019","text":"NADA 😞","color":"#b48ed5"},
+  {"id":"SKU_1020","text":"NADA 😞","color":"#a584cd"},
+
+  {"id":"SKU_1021","text":"POR POCO😆","color":"#87c5e1"},
+  {"id":"SKU_1022","text":"NADA 😞","color":"#b18acb"},
+  {"id":"SKU_1023","text":"NADA 😞","color":"#b091d4"},
+  {"id":"SKU_1024","text":"NADA 😞","color":"#aa82c9"},
+  {"id":"SKU_1025","text":"POR POCO😆","color":"#9dd4e3"},
+  {"id":"SKU_1026","text":"CERCA 😱","color":"#f0bfff"},
+  {"id":"SKU_1027","text":"NADA 😞","color":"#9b76c1"},
+  {"id":"SKU_1028","text":"NADA 😞","color":"#b38fd3"},
+  {"id":"SKU_1029","text":"POR POCO😆","color":"#8ccce0"},
+  {"id":"SKU_1030","text":"CERCA 😱","color":"#e0c2ff"},
+
+  {"id":"SKU_1031","text":"NADA 😞","color":"#af85d2"},
+  {"id":"SKU_1032","text":"NADA 😞","color":"#b492d8"},
+  {"id":"SKU_1033","text":"POR POCO😆","color":"#95d1e3"},
+  {"id":"SKU_1034","text":"NADA 😞","color":"#a87eca"},
+  {"id":"SKU_1035","text":"NADA 😞","color":"#b392d7"},
+  {"id":"SKU_1036","text":"CERCA 😱","color":"#d3b3ff"},
+  {"id":"SKU_1037","text":"NADA 😞","color":"#ad84d0"},
+  {"id":"SKU_1038","text":"POR POCO😆","color":"#92d3e2"},
+  {"id":"SKU_1039","text":"CERCA 😱","color":"#e3c9ff"},
+  {"id":"SKU_1040","text":"🎉GANASTE🎉","color":"#48d24f"},
+
+  {"id":"SKU_1041","text":"CERCA 😱","color":"#cfa0ff"},
+  {"id":"SKU_1042","text":"NADA 😞","color":"#b18ad0"},
+  {"id":"SKU_1043","text":"NADA 😞","color":"#aa7fc4"},
+  {"id":"SKU_1044","text":"POR POCO😆","color":"#89d0e1"},
+  {"id":"SKU_1045","text":"NADA 😞","color":"#b48fd6"},
+  {"id":"SKU_1046","text":"NADA 😞","color":"#9f7cc3"},
+  {"id":"SKU_1047","text":"NADA 😞","color":"#b595d9"},
+  {"id":"SKU_1048","text":"NADA 😞","color":"#ab82cc"},
+  {"id":"SKU_1049","text":"POR POCO😆","color":"#8fd6e4"},
+  {"id":"SKU_1050","text":"NADA 😞","color":"#b18fd3"}
 ]
