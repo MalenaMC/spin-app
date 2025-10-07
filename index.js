@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 
 // ORIGIN permitido (usa la variable de entorno si existe)
-const CLIENT_ORIGIN = process.env.NEXT_PUBLIC_CLIENT_ORIGIN || "http://localhost:3000";
+const CLIENT_ORIGIN = process.env.NEXT_PUBLIC_CLIENT_ORIGIN || "http://localhost:3000" || "https://spin-app-frontend.vercel.app/";
 
 // Cors options explícitas
 const corsOptions = {
