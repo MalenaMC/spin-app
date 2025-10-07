@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 
 // ORIGIN permitido (usa la variable de entorno si existe)
-const CLIENT_ORIGIN = process.env.NEXT_PUBLIC_CLIENT_ORIGIN || "http://localhost:3000" || "https://spin-app-frontend.vercel.app/";
+const CLIENT_ORIGIN = process.env.NEXT_PUBLIC_CLIENT_ORIGIN || "http://localhost:3000" || "https://spin-app-frontend.vercel.app";
 
 // Cors options explícitas
 const corsOptions = {
@@ -29,7 +29,7 @@ const corsOptions = {
 
 // Usar CORS con opciones (maneja preflight)
 app.use(cors({
-  origin: ["http://localhost:3000", "https://spin-app-zusn.onrender.com"], // frontends permitidos
+  origin: ["http://localhost:3000", "https://spin-app-zusn.onrender.com", "https://spin-app-frontend.vercel.app"], // frontends permitidos
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true, // si usas cookies
 }));
@@ -42,7 +42,7 @@ app.use(express.urlencoded({ extended: true }));
 // Crear instancia de socket.io con la misma configuración CORS
 const io = new Server(server, {
   cors: {
-    origin: [CLIENT_ORIGIN, "http://localhost:3000", "https://spin-app-zusn.onrender.com"],
+    origin: [CLIENT_ORIGIN, "http://localhost:3000", "https://spin-app-zusn.onrender.com", "https://spin-app-frontend.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true,
   },
